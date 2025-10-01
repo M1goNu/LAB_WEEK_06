@@ -48,6 +48,27 @@ class MainActivity : AppCompatActivity() {
             listOf(
                 CatModel(
                     Gender.Male,
+                    CatBreed.Abyssinian,
+                    "Blob",
+                    "Frozen but deadly",
+                    "https://cdn2.thecatapi.com/images/N-94oSJ5T.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.ArabianMaul,
+                    "Sarah",
+                    "Beautiful Odette",
+                    "https://cdn2.thecatapi.com/images/z_k-oJ8xG.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Curious George",
+                    "Award winning investigator",
+                    "https://cdn2.thecatapi.com/images/bar.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
                     CatBreed.BalineseJavanese,
                     "Fred",
                     "Silent and deadly",
@@ -61,11 +82,39 @@ class MainActivity : AppCompatActivity() {
                     "https://cdn2.thecatapi.com/images/egv.jpg"
                 ),
                 CatModel(
+                    Gender.Female,
+                    CatBreed.Aegean,
+                    "Luna",
+                    "Playful dreamer",
+                    "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.Siamese,
+                    "Leo",
+                    "Vocal and affectionate",
+                    "https://cdn2.thecatapi.com/images/ai6Jps4sx.jpg"
+                ),
+                CatModel(
                     Gender.Unknown,
-                    CatBreed.AmericanCurl,
-                    "Curious George",
-                    "Award winning investigator",
-                    "https://cdn2.thecatapi.com/images/bar.jpg"
+                    CatBreed.Persian,
+                    "Fluff",
+                    "Royal furball",
+                    "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.MaineCoon,
+                    "Pulisic",
+                    "Gentle giant",
+                    "https://cdn2.thecatapi.com/images/HD4lZB6BI.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.Ragdoll,
+                    "Milo",
+                    "Laid-back companion",
+                    "https://cdn2.thecatapi.com/images/bju16uKfD.jpg"
                 )
             )
         )

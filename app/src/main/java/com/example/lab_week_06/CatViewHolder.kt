@@ -38,9 +38,17 @@ ImageLoader, private val onClickListener : CatAdapter.OnClickListener) : Recycle
         imageLoader.loadImage(cat.imageUrl, catPhotoView)
         catNameView.text = cat.name
         catBreedView.text = when (cat.breed) {
+            CatBreed.Abyssinian -> "Abyssinian"
             CatBreed.AmericanCurl -> "American Curl"
+            CatBreed.Aegean -> "Aegean"
+            CatBreed.ArabianMaul -> "Arabian Maul"
             CatBreed.BalineseJavanese -> "Balinese-Javanese"
             CatBreed.ExoticShorthair -> "Exotic Shorthair"
+            CatBreed.Persian -> "Persian"
+            CatBreed.Ragdoll -> "Ragdoll"
+            CatBreed.Siamese -> "Siamese"
+            CatBreed.MaineCoon -> "Mainecoon"
+
             else -> "Unknown"
         }
         catBiographyView.text = cat.biography
